@@ -134,3 +134,7 @@ endif
 # Charger images
 PRODUCT_PACKAGES += \
     charger_res_images
+
+# AICP Ad-block
+PRODUCT_PACKAGES += \
+    hosts.aicp_adblock

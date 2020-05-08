@@ -95,7 +95,3 @@ PRODUCT_COPY_FILES += \
 # Hidden API whitelist
 PRODUCT_COPY_FILES += \
     vendor/revengeos/config/sysconfig/revengeos-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/revengeos-hiddenapi-package-whitelist.xml
-
-# Ad-block hosts
-PRODUCT_COPY_FILES += \
-    vendor/aicp/prebuilt/common/etc/hosts.aicp_adblock:system/etc/hosts.aicp_adblock
