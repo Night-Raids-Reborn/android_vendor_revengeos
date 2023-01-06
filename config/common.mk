@@ -104,6 +104,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.build.gms_fingerprint=$(PRODUCT_OVERRIDE
 endif
 
 # Include Lawnchair
-ifeq ($(USE_LAWNCHAIR),true)
+ifeq ($(USE_LAWNCHAIR), true)
 $(call inherit-product, vendor/lawnchair/lawnchair.mk)
+endif
+
+# Gapps
+ifeq ($(WITH_GAPPS), true)
+$(call inherit-product, vendor/gapps/gapps.mk)
 endif
