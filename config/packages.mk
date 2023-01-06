@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += \
     messaging \
     Stk \
     Snap \
-    StitchImage
+    StitchImage \
+    SoftAPManager
 
 # RevengeOS packages
 PRODUCT_PACKAGES += \
